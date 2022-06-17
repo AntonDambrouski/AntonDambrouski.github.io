@@ -3,3 +3,12 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+
+*.swp
+
+# Ruby Gem
+*.gem
+.bundle
+Gemfile.lock
+
