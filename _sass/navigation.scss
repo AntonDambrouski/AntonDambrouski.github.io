@@ -1,0 +1,38 @@
+$primaryColor: #000;
+$secondaryColor: #fff;
+$tertiaryColor: #6b747a;
+
+.navmenu {
+  border-bottom: 1px solid $tertiaryColor;
+}
+
+.navmenu-container {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.navmenu_item {
+  text-align: center;
+}
+
+.navmenu_link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: $primaryColor;
+  background-color: $secondaryColor;
+}
+
+.navmenu_link:not(.navmenu_link__active):hover {
+  background-color: $tertiaryColor;
+  color: $secondaryColor;
+}
+
+.navmenu_link__active {
+  background-color: $primaryColor;
+  color: $secondaryColor;
+}

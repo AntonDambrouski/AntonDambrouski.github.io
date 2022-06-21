@@ -10,9 +10,11 @@
     {% feed_meta %} {% seo %}
     <title>{{ page.title }}</title>
   </head>
-  <body>
-    <header>{% include navigation.html %}</header>
-    <main>{{ content }}</main>
-    <footer>{% include footer.html %}</footer>
+  <body class="body">
+    <div class="body_content">
+      <header>{% include navigation.html %}</header>
+      <main>{{ content }}</main>
+      <footer>{% include footer.html %}</footer>
+    </div>
   </body>
 </html>
