@@ -1,7 +1,7 @@
 <nav class="navmenu">
   <ul class="navmenu-container">
     {% for item in site.data.navigation %}
-    <li class="navmenu_item" ><a href="{{ item.link }}" {% if page.url == item.link %}class="navmenu_link navmenu_link__active" {%else%}class="navmenu_link" {% endif %}>
+    <li class="navmenu_item" {% if page.url == item.link %}class="navmenu_item navmenu_item__active" {%else%}class="navmenu_link" {% endif %}><a href="{{ item.link }}" {% if page.url == item.link %}class="navmenu_link navmenu_link__active" {%else%}class="navmenu_link" {% endif %}>
       {{item.name}}
     </a>
       </li>

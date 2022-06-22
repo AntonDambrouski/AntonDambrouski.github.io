@@ -26,3 +26,13 @@
 .row {
   margin: 15px 0px;
 }
+
+.image {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .body_content {
+    width: 95vw;
+  }
+}

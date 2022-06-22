@@ -1,0 +1,21 @@
+.header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo_header {
+  margin: 0 25px;
+  font-size: 16pt;
+}
+
+.image_container {
+  overflow: hidden;
+}
+
+.logo_image {
+  max-width: 100px;
+  border-radius: 50%;
+}

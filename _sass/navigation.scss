@@ -2,10 +2,6 @@ $primaryColor: #000;
 $secondaryColor: #fff;
 $tertiaryColor: #6b747a;
 
-.navmenu {
-  border-bottom: 1px solid $tertiaryColor;
-}
-
 .navmenu-container {
   padding: 0;
   margin: 0;
@@ -16,11 +12,12 @@ $tertiaryColor: #6b747a;
 }
 
 .navmenu_item {
+  flex: 1;
   text-align: center;
 }
 
 .navmenu_link {
-  display: inline-block;
+  display: block;
   padding: 10px 20px;
   text-decoration: none;
   color: $primaryColor;
